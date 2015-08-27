@@ -6,7 +6,7 @@
 <style>
 body{background:black;color:white;}
 body,html,form{margin:0px;}
-*{font-family:"Bitstream Vera Sans Mono";}
+*{font-family: "Monaco"!important/*这个字体对于编程来说比较好*/;}
 form{
 display:block;
 padding-right:5.5em;
