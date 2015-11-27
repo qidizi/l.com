@@ -7,7 +7,7 @@
 <body>
 <?php
 echo '<pre>';
-$log = __DIR__ .'/../php_errors.log';
+$log = __DIR__ .'/../log/nginx-php-fpm.txt';
 echo file_get_contents($log);
 file_put_contents($log, '');
 echo '</pre>';
