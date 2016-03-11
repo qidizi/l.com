@@ -7,7 +7,7 @@
 <body>
 <?php
 echo '<pre>';
-$log = '/var/log/php.log';
+$log = '/var/log/php-fpm/www-error.log';
 
 if (!is_writable($log)) {
     exit("{$log}日志文件不可写:请使用 chmod a+wr {$log}处理一下;");
